@@ -1,0 +1,3 @@
+@import '../components/Button/Button.module.css';
+@import '../components/typography/Text/Text.module.css';
+@import '../components/LoadingDots/LoadingDots.module.css';

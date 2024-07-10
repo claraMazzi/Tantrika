@@ -1,0 +1,68 @@
+.html {
+  @apply text-base;
+}
+
+.html :is(h1, h2, h3, h4, h5, h6, p, ul, ol) {
+  @apply mb-4;
+}
+
+.html :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+  @apply mt-8;
+}
+
+.html p {
+  @apply mt-1 mb-1;
+}
+
+.html :is(h1, h2, h3, h4) {
+  @apply font-bold;
+}
+
+.html :is(h5, h6) {
+  @apply font-normal;
+}
+
+.html h1 {
+  @apply text-3xl;
+}
+
+.html h2 {
+  @apply text-2xl;
+}
+
+.html h3 {
+  @apply text-xl;
+}
+
+.html h4 {
+  @apply text-2xl;
+}
+
+.html h5 {
+  @apply text-xl;
+}
+
+.html h6 {
+  @apply text-lg;
+}
+
+.html ul,
+.html ol {
+  @apply pl-6;
+}
+
+.html ul {
+  @apply list-disc;
+}
+
+.html ol {
+  @apply list-decimal;
+}
+
+.html a {
+  @apply underline;
+}
+
+.html a:hover {
+  @apply no-underline;
+}

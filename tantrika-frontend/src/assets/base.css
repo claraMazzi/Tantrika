@@ -1,0 +1,249 @@
+:root {
+  --red: #B30000;
+  --blue-main: #006EF5;
+  --blue-light: #338eff;
+  --blue-ultra-light: #d9eaff;
+  --blue-dark: #005bcc;
+  --aqua: #83e9ff;
+  --green: #33843B;
+  --green-dark: #004e43;
+  --orange: #E32708;
+  --orange-light: #ffa052;
+  --yellow: #ffd060;
+  --yellow-paypal: #f7c557;
+  --blue-facebook: #0072e4;
+  --black-twitter: #000000;
+
+  --lc-blue: #509bf9;
+  --lc-blue-dark: #1e64bd;
+  --lc-blue-accent: #f9ae50;
+  --lc-green: #539380;
+  --lc-green-dark: #336760;
+  --lc-green-dark-accent: #935366;
+  --lc-purple: #c4a4ce;
+  --lc-purple-dark: #944baa;
+  --lc-purple-accent: #aecea4;
+  --lc-orange: #fcd88a;
+  --lc-orange-dark: #ffc956;
+  --lc-orange-dark-accent: #e7fc8a;
+  --lc-pink: #d68fad;
+  --lc-pink-dark: #e263c6;
+  --lc-pink-dark-accent: #8fd6b8;
+  --learn-overlay: #0000004c;
+  --p-overlay: #00000009;
+
+  --accent-0: #ffffff;
+  --accent-1: #f3f3f3;
+  --accent-2: #eaeaea;
+  --accent-3: #dadada;
+  --accent-4: #dedede;
+  --accent-5: #a5a5a5;
+  --accent-6: #8b8b8b;
+  --accent-7: #555555;
+  --accent-8: #333333;
+  --accent-9: #222222;
+  --accent-10: #000000;
+
+  /* Learn Center colors */
+  --primary: var(--blue-main); /* Main brand color (blue) */
+  --primary-light: var(--blue-light); /* Main brand color (blue) */
+  --primary-dark: var(--blue-dark); /* Main brand color (blue) */
+  --primary-overlay: var(--accent-0); /* A color that overlays the primary color (white) */
+  --secondary: var(--accent-0); /* Secondary brand color (white) */
+  --secondary-overlay: var(--accent-8); /* A color that overlays the secondary color (black) */
+  --selection: var(--primary);
+  --text-base: var(--accent-9);
+  --text-primary: var(--text-base);
+  --text-secondary: var(--accent-9);
+  --error: var(--orange);
+  --success: var(--green);
+  --warning: var(--orange-light);
+
+  --price-normal: var(--text-base);
+  --price-discount: var(--red);
+  --price-old: var(--accent-7);
+  --price-old-msrp: var(--green-dark);
+
+  --button-primary-bg: var(--primary);
+  --button-primary-content: var(--primary-overlay);
+  --button-primary-border: transparent;
+  --button-primary-hover-bg: var(--primary-light);
+  --button-primary-hover-content: var(--primary-overlay);
+  --button-primary-hover-border: transparent;
+  --button-primary-active-bg: var(--primary-dark);
+  --button-primary-active-content: var(--primary-overlay);
+  --button-primary-active-border: transparent;
+
+  --button-tertiary-bg: rgba(0, 0, 0, 0);
+  --button-tertiary-content: var(--secondary-overlay);
+  --button-tertiary-border: var(--accent-6);
+  --button-tertiary-hover-bg: rgba(0, 0, 0, 0);
+  --button-tertiary-hover-content: var(--secondary-overlay);
+  --button-tertiary-hover-border: var(--secondary-overlay);
+  --button-tertiary-active-bg: rgba(0, 0, 0, 0.05);
+  --button-tertiary-active-content: var(--secondary-overlay);
+  --button-tertiary-active-border: var(--secondary-overlay);
+
+  --button-tertiary-2-bg: rgba(255, 255, 255, 0);
+  --button-tertiary-2-content: var(--secondary);
+  --button-tertiary-2-border: var(--secondary);
+  --button-tertiary-2-hover-bg: rgba(255, 255, 255, 0.05);
+  --button-tertiary-2-hover-content: var(--secondary);
+  --button-tertiary-2-hover-border: var(--secondary);
+  --button-tertiary-2-active-bg: rgba(255, 255, 255, 0.1);
+  --button-tertiary-2-active-content: var(--secondary);
+  --button-tertiary-2-active-border: var(--secondary);
+
+  --button-secondary-bg: var(--secondary);
+  --button-secondary-content: var(--secondary-overlay);
+  --button-secondary-border: var(--secondary-overlay);
+  --button-secondary-hover-bg: var(--secondary);
+  --button-secondary-hover-content: var(--secondary-overlay);
+  --button-secondary-hover-border: var(--primary-light);
+  --button-secondary-active-bg: var(--secondary);
+  --button-secondary-active-content: var(--secondary-overlay);
+  --button-secondary-active-border: var(--primary-dark);
+
+  --button-secondary-2-bg: var(--accent-1);
+  --button-secondary-2-content: var(--secondary-overlay);
+  --button-secondary-2-border: transparent;
+  --button-secondary-2-hover-bg: rgba(0, 0, 0, 0.15);
+  --button-secondary-2-hover-content: var(--secondary-overlay);
+  --button-secondary-2-hover-border: transparent;
+  --button-secondary-2-hover-bg: var(--accent-3);
+  --button-secondary-2-active-content: var(--secondary-overlay);
+  --button-secondary-2-active-border: transparent;
+
+  --link-content: var(--text-primary);
+  --link-hover-content: var(--primary-light);
+  --link-active-content: var(--primary-dark);
+
+  --input-bg: var(--accent-1);
+  --input-content: var(--accent-7);
+  --input-hover-bg: var(--accent-1);
+  --input-hover-content: var(--accent-3);
+  --input-hover-border: var(--accent-4);
+  --input-focus-bg: var(--accent-1);
+  --input-focus-content: var(--accent-7);
+  --input-focus-border: var(--blue-light);
+
+  --input-secondary-bg: var(--accent-7);
+  --input-secondary-content: var(--accent-0);
+  --input-secondary-hover-bg: var(--accent-7);
+  --input-secondary-hover-content: var(--accent-1);
+  --input-secondary-hover-border: var(--accent-4);
+  --input-secondary-focus-bg: var(--accent-7);
+  --input-secondary-focus-content: var(--accent-1);
+  --input-secondary-focus-border: var(--blue-light);
+
+  --badge-new: var(--green);
+  --badge-sale: var(--orange);
+  --badge-bestseller: var(--accent-7);
+  --badge-staffpick: var(--accent-2);
+
+  /* Default logo colors */
+  --logo-bg-1: #003acd;
+  --logo-bg-2: var(--blue-main);
+  --logo-c-mark-bg: #003acd;
+  --logo-c-mark-text: white;
+
+  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+/* [data-theme='dark'] {
+  --primary: #000000;
+  --primary-2: #111;
+  --secondary: #ffffff;
+  --secondary-2: #f1f3f5;
+  --hover: rgba(255, 255, 255, 0.075);
+  --hover-1: rgba(255, 255, 255, 0.15);
+  --hover-2: rgba(255, 255, 255, 0.25);
+  --selection: var(--purple);
+  --text-base: white;
+  --text-primary: white;
+  --text-secondary: black;
+  --accent-9: #fff;
+  --accent-8: #fafafa;
+  --accent-7: #eaeaea;
+  --accent-6: #999999;
+  --accent-5: #888888;
+  --accent-4: #666666;
+  --accent-3: #444444;
+  --accent-2: #333333;
+  --accent-1: #111111;
+  --accent-0: #000;
+} */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--secondary);
+  color: var(--text-primary);
+  overscroll-behavior-x: none;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.widgetFit {
+  > div {
+    height: 100%;
+    > div {
+      height: 100%;
+    }
+  }
+}
+
+#launcher{
+  display: none !important;
+}

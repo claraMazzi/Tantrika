@@ -1,0 +1,43 @@
+:root {
+  --primary: #0075c9;
+  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+    'Helvetica', sans-serif;
+  --rt-color-white: #fff;
+  --rt-color-dark: #222;
+  --rt-color-success: #8dc572;
+  --rt-color-error: #ef4444;
+  --rt-color-warning: #eab308;
+  --rt-color-info: #0075c9;
+  --rt-opacity: 0.9;
+}
+
+[data-theme='dark'] {
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-x: none;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  font-size: 16px;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
